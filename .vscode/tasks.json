@@ -1,0 +1,18 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Run SPK Game PC",
+			"type": "shell",
+			"command": "C:\\Users\\Argeswara\\AppData\\Local\\Programs\\Python\\Python310\\Scripts\\streamlit.exe",
+			"args": [
+				"run",
+				"app.py",
+				"--server.headless",
+				"true"
+			],
+			"isBackground": true,
+			"problemMatcher": []
+		}
+	]
+}
