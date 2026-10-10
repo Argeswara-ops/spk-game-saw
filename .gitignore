@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+env/
+.venv/
+pip-wheel-metadata/
+*.egg-info/
+dist/
+build/
+
+# Streamlit
+/*.streamlit/
+
+# Data
+data/raw/*.csv   # keep large raw data out of the repo (optional)
