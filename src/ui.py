@@ -620,8 +620,8 @@ def render_steam_header(title: str, subtitle: str, tag: str = "STEAM SAW ENGINE"
     icon_svg = get_icon("game")
     st.markdown(
         f"""<div class="steam-hero"><div><div class="steam-hero-title">{icon_svg}{title}</div><div class="steam-hero-subtitle">{subtitle}</div></div><div><span class="steam-tag">{tag}</span></div></div>""",
-
-.")
+        unsafe_allow_html=True,
+    )
 
 
 def render_top_game_cards(results_df, top_n: int = 3) -> None:
